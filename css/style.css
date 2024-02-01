@@ -76,14 +76,14 @@
 }
 
 .scroll_snapping_point {
-    scroll-snap-align: start;
+    /*scroll-snap-align: start;*/
   }
 
 .scroll_container {
     overflow: scroll;
     scroll-behavior: smooth;
     height: 90vh;
-    scroll-snap-type: y mandatory;
+    /*scroll-snap-type: y mandatory;*/
 }
 
 body {
