@@ -14,7 +14,31 @@
 
     border-radius: 25px;
 
-    border: 2px solid rgb(138, 28, 52);
+    border: 2px solid rgb(156, 156, 156);
+}
+
+.tag-legendary {
+  display: inline-flex;
+  color: whitesmoke;
+  background-color: rgb(75, 65, 28);
+  font-size: smaller;
+  
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+
+  border-radius: 25px;
+
+  border: 2px solid rgb(233, 163, 0);
+}
+
+.outlined {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
 }
 
 .paintSplotches {
@@ -38,7 +62,7 @@
 }
 
 .custom_navbar:hover {
-    color: rgb(255, 128, 139);
+    color: rgb(159, 159, 159);
     background-color: #0d0f14;
 }
 
