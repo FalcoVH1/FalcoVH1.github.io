@@ -156,6 +156,43 @@ body {
     margin-bottom: 5rem;
   }
   
+.name_title {
+  color: whitesmoke; 
+  font-size: 150px; 
+}
+
+.name_title_under {
+  margin-top: -125px;
+  color: whitesmoke; 
+  font-size: 150px; 
+}
+
+  @media only screen and (max-width: 1300px) {
+    .name_title {
+      margin-top: 50px;
+      font-size: 100px; 
+    }
+
+    .name_title_under {
+      margin-top: -75px;
+      color: whitesmoke; 
+      font-size: 100px; 
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .name_title {
+      margin-top: 0px;
+      font-size: 50px; 
+    }
+
+    .name_title_under {
+      margin-top: -50px;
+      color: whitesmoke; 
+      font-size: 50px; 
+    }
+  }
+
   @media only screen and (max-width: 800px) {
     .cards_section {
         margin-bottom: 60rem;
